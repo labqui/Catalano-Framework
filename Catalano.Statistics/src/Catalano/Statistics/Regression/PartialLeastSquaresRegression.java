@@ -84,6 +84,7 @@ public class PartialLeastSquaresRegression {
      * @param tolerance Tolerance.
      */
     public PartialLeastSquaresRegression(int factors, double tolerance) {
+        this.factors = factors;
         this.tolerance = tolerance;
     }
     
